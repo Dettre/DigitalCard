@@ -77,12 +77,11 @@
   
   .container.contact-page
   .text-zone {
-    position: absolute;
+  position: absolute;
     left: 0%;
-    top: 50%;
+    margin: 0 7px;
     transform: translateY(-60%);
-    width: 100%;
-    //vertical-align: middle;
+    width: 95%;
     display: table-cell;
     max-height: 90%;
 
