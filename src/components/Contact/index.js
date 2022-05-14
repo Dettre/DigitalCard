@@ -127,11 +127,12 @@ const Contact = () => {
           </div>
           </div>
           <div className="map-wrap">
-          <MapContainer center={[-22.973519, -43.333252]} zoom={13}>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+          <h2> Minha localização:</h2>
+          <MapContainer center={[-22.973519, -43.333252]} zoom={15}>
+             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[-22.973519, -43.333252]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
-            </Marker>
+           <Popup>Raquel Freitas trabalha aqui, tenho a solução para seu problema ! :)</Popup>
+        </Marker>
           </MapContainer>
           
             </div>
