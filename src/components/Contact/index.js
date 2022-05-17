@@ -8,8 +8,7 @@ import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faFacebook,
-  faLinkedin,
-    faSkype,
+  faInstagram,
   faWhatsapp,
 } from '@fortawesome/free-brands-svg-icons'
 
@@ -116,8 +115,8 @@ const Contact = () => {
           </a>
         
                   
-          <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon icon={faSkype} color="#4d4d4e" />
+          <a href="https://instagram.com/advocaciafreitasenascimento?igshid=YmMyMTA2M2Y=" rel="noreferrer" target="_blank">
+            <FontAwesomeIcon icon={faInstagram} color="#4d4d4e" />
           </a>
           </div>
           </div>
