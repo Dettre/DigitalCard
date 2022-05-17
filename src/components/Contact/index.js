@@ -7,10 +7,10 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
+  faFacebook,
   faLinkedin,
-  faGithub,
-  faYoutube,
-  faSkype,
+    faSkype,
+  faWhatsapp,
 } from '@fortawesome/free-brands-svg-icons'
 
 const Contact = () => {
@@ -100,29 +100,22 @@ const Contact = () => {
          
         <div className='midia'>
           <a
-            href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
+            href="https://www.facebook.com/assessoria.raquelfreitas"
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+            <FontAwesomeIcon icon={faFacebook} color="#4d4d4e" />
           </a>
         
           <a
-            href="https://github.com/bobangajicsm"
+            href="https://web.whatsapp.com/send/?phone=5521982701500"
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+            <FontAwesomeIcon icon={faWhatsapp} color="#4d4d4e" />
           </a>
         
-          <a
-            href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
-          </a>
-        
+                  
           <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
             <FontAwesomeIcon icon={faSkype} color="#4d4d4e" />
           </a>
