@@ -28,10 +28,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_ys1yxxg',
-        'template_725a5cl',
+        'gmail',
+        'template_YeJhZkgb',
         form.current,
-        'qMd7R5DxPkyJxVKk7'
+        'your-token'
       )
       .then(
         () => {
@@ -56,41 +56,43 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially ambitious or
-            large projects. However, if you have other request or question,
-            don't hesitate to contact me using below form either.
-          </p>
+       "A advocacia não é profissão de covardes !
+       A função da defesa consiste em ser, ao lado do seu acusado,
+       inocente ou criminoso, a voz dos seus direitos legais.
+      " <b> (Rui Barbosa)</b>
+       <br/>
+         </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
-                  <input placeholder="Name" type="text" name="name" required />
+                  <input placeholder="Nome" type="text" name="name" required />
                 </li>
                 <li className="half">
                   <input
-                    placeholder="Email"
+                    placeholder="E-mail"
                     type="email"
                     name="email"
                     required
                   />
                 </li>
-                <li>
+                {/* <li>
                   <input
                     placeholder="Subject"
                     type="text"
                     name="subject"
                     required
                   />
-                </li>
+                </li> */}
                 <li>
                   <textarea
-                    placeholder="Message"
+                    placeholder="Mensagem"
                     name="message"
                     required
                   ></textarea>
                 </li>
                 <li>
-                  <input type="submit" className="flat-button" value="SEND" />
+                  <input type="submit" className="flat-button" value="Enviar" />
                 </li>
               </ul>
             </form>
@@ -127,12 +129,12 @@ const Contact = () => {
           </div>
           </div>
           <div className="map-wrap">
-          <h2> Minha localização:</h2>
+            <h2> Minha localização:</h2>
           <MapContainer center={[-22.973519, -43.333252]} zoom={15}>
-             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[-22.973519, -43.333252]}>
-           <Popup>Raquel Freitas trabalha aqui, tenho a solução para seu problema ! :)</Popup>
-        </Marker>
+              <Popup>Raquel Freitas trabalha aqui, tenho a solução para o seu problema ! :)</Popup>
+            </Marker>
           </MapContainer>
           
             </div>
